@@ -1,0 +1,22 @@
+{
+    "name": "arrocy/ez-template",
+    "description": "Template package for arrocy/ez-dashboard ecosystem.",
+    "autoload": {
+        "psr-4": {
+            "Arrocy\\Template\\": "src/",
+            "Arrocy\\Template\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arrocy\\Template\\TemplateServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "illuminate/database": "^13.0",
+        "illuminate/support": "^13.0"
+    }
+}
